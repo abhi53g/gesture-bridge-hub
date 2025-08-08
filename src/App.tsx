@@ -10,6 +10,7 @@ import Signup from "./pages/Signup";
 import Translate from "./pages/Translate";
 import Poses from "./pages/Poses";
 import Admin from "./pages/Admin";
+import SignSchool from "./pages/SignSchool";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/translate" element={<Translate />} />
+          <Route path="/sign-school" element={<SignSchool />} />
           <Route path="/poses" element={<Poses />} />
           <Route path="/admin" element={<Admin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

@@ -10,7 +10,7 @@ const Translate = () => {
   const [tab, setTab] = useState<'webcam' | 'upload'>('webcam');
   return (
     <div className="container mx-auto py-10">
-      <SEO title="Translate — SignAI" description="Live ASL recognition with pose overlays and semantic meaning." />
+      <SEO title="Translate — SignAI" description="Live ISL recognition with pose overlays and semantic meaning." />
       <div className="flex items-center justify-between mb-4">
         <h1 className="font-display text-2xl">Translation</h1>
         <div className="inline-flex rounded-md border p-1">

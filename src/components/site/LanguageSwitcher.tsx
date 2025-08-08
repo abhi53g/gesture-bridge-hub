@@ -24,7 +24,7 @@ export const LanguageSwitcher = () => {
         onChange={(e) => onChange(e.target.value)}
       >
         <option value="en">English</option>
-        <option value="asl">ASL-friendly</option>
+        <option value="isl">ISL-friendly</option>
       </select>
     </label>
   );

@@ -9,7 +9,7 @@ const Signup = () => {
   const [show, setShow] = useState(false);
   return (
     <div className="container mx-auto py-16">
-      <SEO title="Create Account — SignAI" description="Join SignAI to translate ASL and explore semantic pose search." />
+      <SEO title="Create Account — SignAI" description="Join SignAI to translate ISL and explore semantic pose search." />
       <div className="max-w-md mx-auto rounded-xl border bg-card p-6 md:p-8">
         <h1 className="font-display text-2xl mb-6">Create your account</h1>
         <form className="space-y-4">

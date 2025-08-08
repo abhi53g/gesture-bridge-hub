@@ -18,6 +18,7 @@ export const Navbar = () => {
 
         <div className="hidden md:flex items-center gap-1">
           <NavLink to="/translate" className={linkCls} end>Translate</NavLink>
+          <NavLink to="/sign-school" className={linkCls} end>Sign School</NavLink>
           <NavLink to="/poses" className={linkCls} end>Poses</NavLink>
           <NavLink to="/admin" className={linkCls} end>Dashboard</NavLink>
         </div>
